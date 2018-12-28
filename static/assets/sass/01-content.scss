@@ -11,11 +11,11 @@
 
 // Colors
 $color-background : #061C30;
-$color-text       : #848d96;
-$color-link       : #848d96;
+$color-text       : #DDDDDD;
+$color-link       : #EEEEEE;
 $color-link-hover : #CA486d;
 $color-maverick   : #47bec7;
-$color-tagline    : #CCCCCC;
+$color-tagline    : #FFFFFF;
 
 // Breakpoints
 $bp-smallish      : 1200px;
@@ -336,7 +336,7 @@ body.page-template-page-fullsingle-split {
       margin-bottom: 31px;
       color: $color-text;
       letter-spacing: 2px;
-      opacity: 0.5;
+      opacity: 0.8;
     }
 
     ul {
@@ -375,7 +375,7 @@ body.page-template-page-fullsingle-split {
 //  Cheers, Rob (@robhope)
 
 .split-credit {
-  opacity: 0.4;
+  opacity: 0.8;
 
   p {
     font-size: 12px;
