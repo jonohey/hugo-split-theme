@@ -12,16 +12,13 @@
     <!-- Content Side -->
     <div class="split-content">
       <div class="split-content-vertically-center">
-        <!-- Intro -->
+
         {{ partial "intro" . }}
 
-        <!-- Main -->
         {{ block "main" .  }}
-          <!-- Bio -->
           {{ partial "bio" . }}
         {{ end }}
 
-        <!-- Footer -->
         {{ partial "footer" . }}
       </div>
     </div>

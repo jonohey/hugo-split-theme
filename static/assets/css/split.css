@@ -216,7 +216,7 @@ body.page-template-page-fullsingle-split {
   .split-bio h2, .split-bio .h2 {
     font-size: 1.25em;
     line-height: inherit;
-    margin-top: 0;
+    margin-top: 2em;
     margin-bottom: 20px; }
   .split-bio h3, .split-bio .h3 {
     font-size: 1.1875em;
@@ -261,33 +261,35 @@ body.page-template-page-fullsingle-split {
   .split-bio dl dd {
     margin-bottom: 10px; }
 
-.split-lists .split-list {
-  width: 30%;
-  display: inline-block;
-  margin-bottom: 40px;
-  vertical-align: top; }
-  @media (max-width: 500px) {
-    .split-lists .split-list {
-      width: 90%; } }
-  .split-lists .split-list h3 {
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 11px;
-    line-height: 11px;
-    margin-bottom: 31px;
-    color: #DDDDDD;
-    letter-spacing: 2px;
-    opacity: 0.8; }
-  .split-lists .split-list ul li {
-    font-size: 16px;
-    line-height: 16px;
-    margin-bottom: 12px; }
-    .split-lists .split-list ul li a {
-      color: #EEEEEE;
-      transition-duration: 0.5s; }
-      .split-lists .split-list ul li a:hover {
-        color: #CA486d;
-        transition-duration: 0.1s; }
+.split-lists {
+  margin-top: 48px; }
+  .split-lists .split-list {
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 40px;
+    vertical-align: top; }
+    @media (max-width: 500px) {
+      .split-lists .split-list {
+        width: 90%; } }
+    .split-lists .split-list h3 {
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 11px;
+      line-height: 11px;
+      margin-bottom: 31px;
+      color: #DDDDDD;
+      letter-spacing: 2px;
+      opacity: 0.8; }
+    .split-lists .split-list ul li {
+      font-size: 16px;
+      line-height: 16px;
+      margin-bottom: 12px; }
+      .split-lists .split-list ul li a {
+        color: #EEEEEE;
+        transition-duration: 0.5s; }
+        .split-lists .split-list ul li a:hover {
+          color: #CA486d;
+          transition-duration: 0.1s; }
 
 .split-credit {
   opacity: 0.8; }
@@ -331,5 +333,15 @@ video.video {
   object-position: 50% 50%;
   width: 100%;
   height: 100%; }
+
+.video-embed {
+  margin-bottom: 16px; }
+
+.sheet-music-table th {
+  text-align: left;
+  font-weight: bold; }
+
+.audio-track {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=split.css.map */
