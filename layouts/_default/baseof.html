@@ -10,7 +10,7 @@
   <div class="fs-split">
 
     <!-- Content Side -->
-    <div class="split-content">
+    <div class="split-content {{ if .Page.Params.oneColumn }}one-column{{ end }}">
       <div class="split-content-vertically-center">
 
         {{ partial "intro" . }}
@@ -22,19 +22,22 @@
         {{ partial "footer" . }}
       </div>
     </div>
+    {{ if .Page.Params.oneColumn }}
 
-    <!-- Image -->
-    {{ if .Site.Params.visual.image.enable }}
+    {{ else }}
+      <!-- Image -->
+      {{ if .Site.Params.visual.image.enable }}
 
-      <div class="split-image">
+        <div class="split-image">
 
-      </div>
+        </div>
 
-    <!-- Video -->
-    {{ else if .Site.Params.visual.video.enable }}
+      <!-- Video -->
+      {{ else if .Site.Params.visual.video.enable }}
 
-      {{ partial "video" . }}
+        {{ partial "video" . }}
 
+      {{ end }}
     {{ end }}
 
   </div>
