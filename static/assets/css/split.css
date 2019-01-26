@@ -183,6 +183,8 @@ body.page-template-page-fullsingle-split {
       color: #CA486d;
       transition-duration: 0.1s;
       border-bottom: 1px dotted #CA486d; }
+    .split-bio a.book-cover-link {
+      border-bottom: none; }
   .split-bio em,
   .split-bio i {
     font-style: italic;
@@ -357,5 +359,9 @@ video.video {
 
 .audio-track {
   margin-top: 20px; }
+
+.book-cover {
+  width: 100%;
+  object-fit: contain; }
 
 /*# sourceMappingURL=split.css.map */

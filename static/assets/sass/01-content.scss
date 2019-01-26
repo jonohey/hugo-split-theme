@@ -199,6 +199,9 @@ body.page-template-page-fullsingle-split {
       border-bottom: 1px dotted $color-link-hover;
     }
 
+    &.book-cover-link {
+      border-bottom: none;
+    }
   }
 
   em,
@@ -461,4 +464,9 @@ video.video {
 
 .audio-track {
   margin-top: 20px;
+}
+
+.book-cover {
+  width: 100%;
+  object-fit: contain;
 }
